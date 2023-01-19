@@ -1,6 +1,6 @@
 # What is this?
 
-This is a basic repo that will write a cookie and read a cookie. 
+This is a basic repo that will write a cookie and read a cookie using [AdonisJs](https://adonisjs.com/).
 
 # Instructions
 
