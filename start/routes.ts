@@ -26,7 +26,7 @@ Route.get('/', async () => {
 })
 
 Route.get('/bake-cookie', ({ response }) => {
-  response.cookie(String(Env.get('TEST_COOKIE')), 'Oatmeal', {
+  response.cookie(String(Env.get('TEST_COOKIE')), 'Chocolate Chip', {
     maxAge: 60 * 60 * 24 * 7,
     sameSite: 'none',
     secure: true,
